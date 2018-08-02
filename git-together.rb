@@ -7,7 +7,7 @@ class GitTogether < Formula
   sha256 "072ad72d40c6771d172b12c6e5cb47fcc4190ea5b72faa99025774c675b15a13"
   version VERSION
 
-  depends_on "libssh2" => :run
+  depends_on "libssh2"
 
   def install
     bin.install "git-together"
