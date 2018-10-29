@@ -1,10 +1,10 @@
 class GitTogether < Formula
-  VERSION = "0.1.0-alpha.13"
+  VERSION = "0.1.0-alpha.17"
 
   desc "git-together"
   homepage "https://github.com/kejadlen/git-together"
   url "https://github.com/kejadlen/git-together/releases/download/v#{VERSION}/git-together-v#{VERSION}-x86_64-apple-darwin.tar.gz"
-  sha256 "072ad72d40c6771d172b12c6e5cb47fcc4190ea5b72faa99025774c675b15a13"
+  sha256 "663317392f662712c1a7a2299fc60d2fdae2c6a81f9ead5f490b574c69d27346"
   version VERSION
 
   depends_on "libssh2"
